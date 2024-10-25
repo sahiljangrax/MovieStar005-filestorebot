@@ -28,11 +28,11 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "6080388435"))
 PORT = os.environ.get("PORT", "3737")
 
 #Database 
-DB_URI = "mongodb+srv://nextgenbotz:5tKVPSjOuKvpTy4q@cluster0.iyifh.mongodb.net/?retryWrites=true&w=majority"
-DB_NAME = os.environ.get("DATABASE_NAME", "idkyami")
+DB_URI = "mongodb+srv://tgstart00055:dM8zuiOMeZ0HHY04@cluster0.cgvel.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+DB_NAME = os.environ.get("DATABASE_NAME", "cluster0")
 
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Shortxlinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "699199905e9fa412822d6cdd4e84ba9ad552e78b")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "0a22b1410bbaee7099f2de7e82d1201e8389c1a6")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_download_tutorial_idk/2")
