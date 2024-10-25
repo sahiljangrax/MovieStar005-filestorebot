@@ -10,19 +10,19 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7922375491:AAFXM1X6nKbUCvjy1q9o4CuiTU7iXXhpd1A")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6969502691:AAH2s06kLocs4axeTXS2vclkK6z6O1ZKTWI")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "9219444"))
+APP_ID = int(os.environ.get("APP_ID", "29414758"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "9db23f3d7d8e7fc5144fb4dd218c8cc3")
+API_HASH = os.environ.get("API_HASH", "8cd9e6113ed53dd8767cb760d4535bd1")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002306179649"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1014472611"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6080388435"))
 
 #Port
 PORT = os.environ.get("PORT", "3737")
@@ -49,7 +49,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "<b>👋👋 Hey {first} ! </b>\n\n<b>I'm a File Store Bot🤖...! </b>\n\nI Can <b>Store Private Files</b> in Specified Channel and other users can access Private Files From a Special Link....!\n\n⚡<b>Powered By - </b>@NextGenBotz")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1014472611").split()):
+    for x in (os.environ.get("ADMINS", "6502373566").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
