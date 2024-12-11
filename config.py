@@ -31,15 +31,15 @@ PORT = os.environ.get("PORT", "3737")
 DB_URI = "mongodb+srv://tgstart00055:dM8zuiOMeZ0HHY04@cluster0.cgvel.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = os.environ.get("DATABASE_NAME", "cluster0")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "shortxlinks.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "0a22b1410bbaee7099f2de7e82d1201e8389c1a6")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "modijiurl.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "cc5016ec98fc49df57b0a9e710a3805cb7fb421a")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/How_to_download_tutorial_idk/2")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002305221203"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001710724714"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002443500050"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
