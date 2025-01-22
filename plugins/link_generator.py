@@ -38,7 +38,7 @@ async def batch(client: Client, message: Message):
     base64_string = await encode(string)
     link = f"https://t.me/{client.username}?start={base64_string}"
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Share URL", url=f'https://telegram.me/share/url?url={link}')]])
-    await second_message.reply_text(f"<b> Heading🫠🥰\n <blockquote>🔗LINK -\n {link}</blockquote>\n\n ======================= \n✅ How to Watch Video \nhttps://t.me/LM_How_To_Watch_Movie</b>", quote=True, reply_markup=reply_markup)
+    await second_message.reply_text(f"<b>n\n𝚄𝚙𝚕𝚘𝚊𝚍𝚎𝚍 𝙱𝚢 @Links_Wala_Bhaiji 💞 \n\nHow To Watch/Download✨\n@LM_How_To_Watch_Movie \n\n<blockquote>📥𝙷𝚎𝚛𝚎 𝙸𝚜 𝚈𝚘𝚞𝚛 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 𝙻𝚒𝚗𝚔📥\n\n{link}\n{link}</blockquote></b>", quote=True, reply_markup=reply_markup)
 
 
 @Bot.on_message(filters.private & filters.user(ADMINS) & filters.command('genlink'))
@@ -58,4 +58,4 @@ async def link_generator(client: Client, message: Message):
     base64_string = await encode(f"get-{msg_id * abs(client.db_channel.id)}")
     link = f"https://t.me/{client.username}?start={base64_string}"
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Share URL", url=f'https://telegram.me/share/url?url={link}')]])
-    await channel_message.reply_text(f"<b> Heading✨💞\n <blockquote>🔗LINK -\n {link}</blockquote>\n\n ======================= \n✅ How to Watch Video \nhttps://t.me/LM_How_To_Watch_Movie</b>", quote=True, reply_markup=reply_markup)
+    await channel_message.reply_text(f"<b>n\n𝚄𝚙𝚕𝚘𝚊𝚍𝚎𝚍 𝙱𝚢 @Links_Wala_Bhaiji 💞 \n\nHow To Watch/Download✨\n@LM_How_To_Watch_Movie \n\n<blockquote>📥𝙷𝚎𝚛𝚎 𝙸𝚜 𝚈𝚘𝚞𝚛 𝙳𝚘𝚠𝚗𝚕𝚘𝚊𝚍 𝙻𝚒𝚗𝚔📥\n\n{link}\n{link}</blockquote></b>", quote=True, reply_markup=reply_markup)
